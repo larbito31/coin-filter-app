@@ -11,6 +11,7 @@ export default function Coins({coins}) {
                     alt={coin.name}
                     width={70}
                     height={70}
+                    priority
                 />
                 <h3>{coin.name}</h3>
                 <p>{coin.symbol}</p>
